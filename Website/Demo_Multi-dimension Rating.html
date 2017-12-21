@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Meta -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<script>
+function find_restaurants()
+{
+	if (!$("#price").is(":checked") && !($("#service").is(":checked")) && !($("#ambience").is(":checked")) && !($("#food").is(":checked"))){
+        x=document.getElementById("top1");
+        x.innerHTML="Szechuan Cuisine";
+        x=document.getElementById("top1_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top1_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top1_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top1_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top1_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top1_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top2");
+        x.innerHTML="The Works";
+        x=document.getElementById("top2_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top2_service");
+        x.innerHTML="service: 4.5";
+        x=document.getElementById("top2_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top2_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top2_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top2_star");
+        x.innerHTML="4.9";
+
+        x=document.getElementById("top3");
+        x.innerHTML="Baja Fresh Mexican Grill";
+        x=document.getElementById("top3_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top3_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top3_ambience");
+        x.innerHTML="ambience: 4.5";
+        x=document.getElementById("top3_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top3_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top3_star");
+        x.innerHTML="4.9";
+    }
+    if (!$("#price").is(":checked") && !($("#service").is(":checked")) && !($("#ambience").is(":checked")) && ($("#food").is(":checked"))){
+        x=document.getElementById("top1");
+        x.innerHTML="Nabers Music, Bar & Eats";
+        x=document.getElementById("top1_price");
+        x.innerHTML="price: 4.5";
+        x=document.getElementById("top1_service");
+        x.innerHTML="service: 4.0";
+        x=document.getElementById("top1_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top1_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top1_miscellaneous");
+        x.innerHTML="miscellaneous: 4.5";
+        x=document.getElementById("top1_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top2");
+        x.innerHTML="Szechuan Cuisine";
+        x=document.getElementById("top2_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top2_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top2_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top2_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top2_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top2_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top3");
+        x.innerHTML="Rocky's";
+        x=document.getElementById("top3_price");
+        x.innerHTML="price: 3.5";
+        x=document.getElementById("top3_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top3_ambience");
+        x.innerHTML="ambience: 4.0";
+        x=document.getElementById("top3_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top3_miscellaneous");
+        x.innerHTML="miscellaneous: 4.5";
+        x=document.getElementById("top3_star");
+        x.innerHTML="5.0";
+    }
+    if (!$("#price").is(":checked") && !($("#service").is(":checked")) && ($("#ambience").is(":checked")) && !($("#food").is(":checked"))){
+        x=document.getElementById("top1");
+        x.innerHTML="Five Guys";
+        x=document.getElementById("top1_price");
+        x.innerHTML="price: 4.5";
+        x=document.getElementById("top1_service");
+        x.innerHTML="service: 4.5";
+        x=document.getElementById("top1_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top1_food");
+        x.innerHTML="food: 4.5";
+        x=document.getElementById("top1_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top1_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top2");
+        x.innerHTML="Nabers Music, Bar & Eats";
+        x=document.getElementById("top2_price");
+        x.innerHTML="price: 4.5";
+        x=document.getElementById("top2_service");
+        x.innerHTML="service: 4.0";
+        x=document.getElementById("top2_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top2_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top2_miscellaneous");
+        x.innerHTML="miscellaneous: 4.5";
+        x=document.getElementById("top2_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top3");
+        x.innerHTML="Szechuan Cuisine";
+        x=document.getElementById("top3_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top3_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top3_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top3_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top3_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top3_star");
+        x.innerHTML="5.0";
+    }
+    if (!$("#price").is(":checked") && !($("#service").is(":checked")) && ($("#ambience").is(":checked")) && ($("#food").is(":checked"))){
+        x=document.getElementById("top1");
+        x.innerHTML="Nabers Music, Bar & Eats";
+        x=document.getElementById("top1_price");
+        x.innerHTML="price: 4.5";
+        x=document.getElementById("top1_service");
+        x.innerHTML="service: 4.0";
+        x=document.getElementById("top1_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top1_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top1_miscellaneous");
+        x.innerHTML="miscellaneous: 4.5";
+        x=document.getElementById("top1_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top2");
+        x.innerHTML="Szechuan Cuisine";
+        x=document.getElementById("top2_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top2_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top2_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top2_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top2_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top2_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top3");
+        x.innerHTML="The Works";
+        x=document.getElementById("top3_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top3_service");
+        x.innerHTML="service: 4.5";
+        x=document.getElementById("top3_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top3_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top3_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top3_star");
+        x.innerHTML="5.0";
+    }
+    if (!$("#price").is(":checked") && ($("#service").is(":checked")) && !($("#ambience").is(":checked")) && !($("#food").is(":checked"))){
+        x=document.getElementById("top1");
+        x.innerHTML="Le Cartet";
+        x=document.getElementById("top1_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top1_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top1_ambience");
+        x.innerHTML="ambience: 4.5";
+        x=document.getElementById("top1_food");
+        x.innerHTML="food: 4.5";
+        x=document.getElementById("top1_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top1_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top2");
+        x.innerHTML="Szechuan Cuisine";
+        x=document.getElementById("top2_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top2_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top2_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top2_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top2_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top2_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top3");
+        x.innerHTML="Rocky's";
+        x=document.getElementById("top3_price");
+        x.innerHTML="price: 3.5";
+        x=document.getElementById("top3_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top3_ambience");
+        x.innerHTML="ambience: 4.0";
+        x=document.getElementById("top3_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top3_miscellaneous");
+        x.innerHTML="miscellaneous: 4.5";
+        x=document.getElementById("top3_star");
+        x.innerHTML="5.0";
+    }
+    if (!$("#price").is(":checked") && ($("#service").is(":checked")) && !($("#ambience").is(":checked")) && ($("#food").is(":checked"))){
+        x=document.getElementById("top1");
+        x.innerHTML="Szechuan Cuisine";
+        x=document.getElementById("top1_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top1_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top1_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top1_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top1_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top1_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top2");
+        x.innerHTML="Rocky's";
+        x=document.getElementById("top2_price");
+        x.innerHTML="price: 3.5";
+        x=document.getElementById("top2_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top2_ambience");
+        x.innerHTML="ambience: 4.0";
+        x=document.getElementById("top2_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top2_miscellaneous");
+        x.innerHTML="miscellaneous: 4.5";
+        x=document.getElementById("top2_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top3");
+        x.innerHTML="Baja Fresh Mexican Grill";
+        x=document.getElementById("top3_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top3_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top3_ambience");
+        x.innerHTML="ambience: 4.5";
+        x=document.getElementById("top3_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top3_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top3_star");
+        x.innerHTML="5.0";
+    }
+    if (!$("#price").is(":checked") && ($("#service").is(":checked")) && ($("#ambience").is(":checked")) && !($("#food").is(":checked"))){
+        x=document.getElementById("top1");
+        x.innerHTML="Szechuan Cuisine";
+        x=document.getElementById("top1_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top1_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top1_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top1_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top1_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top1_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top2");
+        x.innerHTML="Quaker Steak & Lube";
+        x=document.getElementById("top2_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top2_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top2_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top2_food");
+        x.innerHTML="food: 4.5";
+        x=document.getElementById("top2_miscellaneous");
+        x.innerHTML="miscellaneous: 4.5";
+        x=document.getElementById("top2_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top3");
+        x.innerHTML="Five Guys";
+        x=document.getElementById("top3_price");
+        x.innerHTML="price: 4.5";
+        x=document.getElementById("top3_service");
+        x.innerHTML="service: 4.5";
+        x=document.getElementById("top3_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top3_food");
+        x.innerHTML="food: 4.5";
+        x=document.getElementById("top3_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top3_star");
+        x.innerHTML="4.7";
+    }
+    if (!$("#price").is(":checked") && ($("#service").is(":checked")) && ($("#ambience").is(":checked")) && ($("#food").is(":checked"))){
+        x=document.getElementById("top1");
+        x.innerHTML="Szechuan Cuisine";
+        x=document.getElementById("top1_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top1_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top1_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top1_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top1_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top1_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top2");
+        x.innerHTML="The Works";
+        x=document.getElementById("top2_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top2_service");
+        x.innerHTML="service: 4.5";
+        x=document.getElementById("top2_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top2_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top2_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top2_star");
+        x.innerHTML="4.8";
+
+        x=document.getElementById("top3");
+        x.innerHTML="Quaker Steak & Lube";
+        x=document.getElementById("top3_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top3_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top3_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top3_food");
+        x.innerHTML="food: 4.5";
+        x=document.getElementById("top3_miscellaneous");
+        x.innerHTML="miscellaneous: 4.5";
+        x=document.getElementById("top3_star");
+        x.innerHTML="4.8";
+    }
+    if ($("#price").is(":checked") && !($("#service").is(":checked")) && !($("#ambience").is(":checked")) && !($("#food").is(":checked"))){
+        x=document.getElementById("top1");
+        x.innerHTML="Le Cartet";
+        x=document.getElementById("top1_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top1_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top1_ambience");
+        x.innerHTML="ambience: 4.5";
+        x=document.getElementById("top1_food");
+        x.innerHTML="food: 4.5";
+        x=document.getElementById("top1_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top1_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top2");
+        x.innerHTML="Szechuan Cuisine";
+        x=document.getElementById("top2_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top2_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top2_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top2_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top2_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top2_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top3");
+        x.innerHTML="The Works";
+        x=document.getElementById("top3_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top3_service");
+        x.innerHTML="service: 4.5";
+        x=document.getElementById("top3_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top3_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top3_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top3_star");
+        x.innerHTML="5.0";
+    }
+    if ($("#price").is(":checked") && !($("#service").is(":checked")) && !($("#ambience").is(":checked")) && ($("#food").is(":checked"))){
+        x=document.getElementById("top1");
+        x.innerHTML="Szechuan Cuisine";
+        x=document.getElementById("top1_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top1_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top1_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top1_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top1_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top1_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top2");
+        x.innerHTML="The Works";
+        x=document.getElementById("top2_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top2_service");
+        x.innerHTML="service: 4.5";
+        x=document.getElementById("top2_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top2_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top2_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top2_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top3");
+        x.innerHTML="Baja Fresh Mexican Grill";
+        x=document.getElementById("top3_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top3_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top3_ambience");
+        x.innerHTML="ambience: 4.5";
+        x=document.getElementById("top3_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top3_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top3_star");
+        x.innerHTML="5.0";
+    }
+    if ($("#price").is(":checked") && !($("#service").is(":checked")) && ($("#ambience").is(":checked")) && !($("#food").is(":checked"))){
+        x=document.getElementById("top1");
+        x.innerHTML="Szechuan Cuisine";
+        x=document.getElementById("top1_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top1_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top1_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top1_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top1_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top1_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top2");
+        x.innerHTML="Quaker Steak & Lube";
+        x=document.getElementById("top2_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top2_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top2_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top2_food");
+        x.innerHTML="food: 4.5";
+        x=document.getElementById("top2_miscellaneous");
+        x.innerHTML="miscellaneous: 4.5";
+        x=document.getElementById("top2_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top3");
+        x.innerHTML="Five Guys";
+        x=document.getElementById("top3_price");
+        x.innerHTML="price: 4.5";
+        x=document.getElementById("top3_service");
+        x.innerHTML="service: 4.5";
+        x=document.getElementById("top3_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top3_food");
+        x.innerHTML="food: 4.5";
+        x=document.getElementById("top3_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top3_star");
+        x.innerHTML="4.7";
+    }
+    if ($("#price").is(":checked") && !($("#service").is(":checked")) && ($("#ambience").is(":checked")) && ($("#food").is(":checked"))){
+        x=document.getElementById("top1");
+        x.innerHTML="Szechuan Cuisine";
+        x=document.getElementById("top1_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top1_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top1_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top1_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top1_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top1_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top2");
+        x.innerHTML="The Works";
+        x=document.getElementById("top2_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top2_service");
+        x.innerHTML="service: 4.5";
+        x=document.getElementById("top2_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top2_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top2_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top2_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top3");
+        x.innerHTML="Oishi Sushi";
+        x=document.getElementById("top3_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top3_service");
+        x.innerHTML="service: 4.5";
+        x=document.getElementById("top3_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top3_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top3_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top3_star");
+        x.innerHTML="5.0";
+    }
+    if ($("#price").is(":checked") && ($("#service").is(":checked")) && !($("#ambience").is(":checked")) && !($("#food").is(":checked"))){
+        x=document.getElementById("top1");
+        x.innerHTML="Le Cartet";
+        x=document.getElementById("top1_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top1_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top1_ambience");
+        x.innerHTML="ambience: 4.5";
+        x=document.getElementById("top1_food");
+        x.innerHTML="food: 4.5";
+        x=document.getElementById("top1_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top1_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top2");
+        x.innerHTML="Szechuan Cuisine";
+        x=document.getElementById("top2_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top2_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top2_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top2_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top2_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top2_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top3");
+        x.innerHTML="Quaker Steak & Lube";
+        x=document.getElementById("top3_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top3_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top3_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top3_food");
+        x.innerHTML="food: 4.5";
+        x=document.getElementById("top3_miscellaneous");
+        x.innerHTML="miscellaneous: 4.5";
+        x=document.getElementById("top3_star");
+        x.innerHTML="5.0";
+    }
+    if ($("#price").is(":checked") && ($("#service").is(":checked")) && !($("#ambience").is(":checked")) && ($("#food").is(":checked"))){
+        x=document.getElementById("top1");
+        x.innerHTML="Szechuan Cuisine";
+        x=document.getElementById("top1_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top1_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top1_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top1_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top1_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top1_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top2");
+        x.innerHTML="Baja Fresh Mexican Grill";
+        x=document.getElementById("top2_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top2_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top2_ambience");
+        x.innerHTML="ambience: 4.5";
+        x=document.getElementById("top2_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top2_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top2_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top3");
+        x.innerHTML="Le Cartet";
+        x=document.getElementById("top3_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top3_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top3_ambience");
+        x.innerHTML="ambience: 4.5";
+        x=document.getElementById("top3_food");
+        x.innerHTML="food: 4.5";
+        x=document.getElementById("top3_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top3_star");
+        x.innerHTML="4.8";
+    }
+    if ($("#price").is(":checked") && ($("#service").is(":checked")) && ($("#ambience").is(":checked")) && !($("#food").is(":checked"))){
+        x=document.getElementById("top1");
+        x.innerHTML="Szechuan Cuisine";
+        x=document.getElementById("top1_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top1_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top1_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top1_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top1_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top1_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top2");
+        x.innerHTML="The Works";
+        x=document.getElementById("top2_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top2_service");
+        x.innerHTML="service: 4.5";
+        x=document.getElementById("top2_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top2_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top2_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top2_star");
+        x.innerHTML="4.8";
+
+        x=document.getElementById("top3");
+        x.innerHTML="Quaker Steak & Lube";
+        x=document.getElementById("top3_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top3_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top3_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top3_food");
+        x.innerHTML="food: 4.5";
+        x=document.getElementById("top3_miscellaneous");
+        x.innerHTML="miscellaneous: 4.5";
+        x=document.getElementById("top3_star");
+        x.innerHTML="4.8";
+    }
+    if ($("#price").is(":checked") && ($("#service").is(":checked")) && ($("#ambience").is(":checked")) && ($("#food").is(":checked"))){
+        x=document.getElementById("top1");
+        x.innerHTML="Szechuan Cuisine";
+        x=document.getElementById("top1_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top1_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top1_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top1_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top1_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top1_star");
+        x.innerHTML="5.0";
+
+        x=document.getElementById("top2");
+        x.innerHTML="The Works";
+        x=document.getElementById("top2_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top2_service");
+        x.innerHTML="service: 4.5";
+        x=document.getElementById("top2_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top2_food");
+        x.innerHTML="food: 5.0";
+        x=document.getElementById("top2_miscellaneous");
+        x.innerHTML="miscellaneous: 5.0";
+        x=document.getElementById("top2_star");
+        x.innerHTML="4.9";
+
+        x=document.getElementById("top3");
+        x.innerHTML="Quaker Steak & Lube";
+        x=document.getElementById("top3_price");
+        x.innerHTML="price: 5.0";
+        x=document.getElementById("top3_service");
+        x.innerHTML="service: 5.0";
+        x=document.getElementById("top3_ambience");
+        x.innerHTML="ambience: 5.0";
+        x=document.getElementById("top3_food");
+        x.innerHTML="food: 4.5";
+        x=document.getElementById("top3_miscellaneous");
+        x.innerHTML="miscellaneous: 4.5";
+        x=document.getElementById("top3_star");
+        x.innerHTML="4.9";
+    }
+}
+
+// function myFunction2()
+// {
+//     if ($("#service").is(":checked")){
+//         alert("bbb");
+//     }
+// }
+
+// function myFunction3()
+// {
+//     x=document.getElementById("top1");
+//     x.innerHTML="price yeah1";
+//     x=document.getElementById("top2");
+//     x.innerHTML="price yeah2";
+//     x=document.getElementById("top3");
+//     x.innerHTML="price yeah3";
+// }
+// function myFunction4()
+// {
+//     x=document.getElementById("top1");
+//     x.innerHTML="123";
+//     x=document.getElementById("top2");
+//     x.innerHTML="213";
+//     x=document.getElementById("top3");
+//     x.innerHTML="312";
+// }
+</script>
+
+<!-- Title -->
+<title>Home</title>
+
+<!-- CSS Plugins -->
+<link rel="stylesheet" href="assets/plugins/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="assets/plugins/slick-carousel/slick/slick.css" />
+<link rel="stylesheet" href="assets/plugins/animate.css/animate.min.css" />
+<link rel="stylesheet" href="assets/plugins/animsition/dist/css/animsition.min.css" />
+
+<!-- CSS Icons -->
+<link rel="stylesheet" href="assets/css/themify-icons.css" />
+<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css" />
+
+<!-- CSS Theme -->
+<link id="theme" rel="stylesheet" href="assets/css/themes/theme-beige.min.css" />
+
+</head>
+
+<body>
+
+<!-- Body Wrapper -->
+<div id="body-wrapper" class="animsition">
+
+    <!-- Content -->
+    <div id="content">
+
+        <!-- Section - Main -->
+        <section class="section section-main section-main-1 bg-light">
+            <div class="bg-image"><img src="assets/img/photos/slider-pasta.jpg" alt=""></div>
+            
+            <div class="container dark">
+                <div class="slide-container">
+                    
+                    <div class="content dark">
+                        <div id="section-main-1-carousel-content">
+                            <div class="content-inner">
+                                <h3 class="text-muted">Restarurant Recommendation</h3>
+                                <h3>What do you care most?</h3>
+                                <div class="panel-details">
+
+                                    <div class="panel-details-content">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="price">
+                                                        <span class="custom-control-indicator"></span>
+                                                        <span class="custom-control-description">Price</span>
+                                                    </label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="service">
+                                                        <span class="custom-control-indicator"></span>
+                                                        <span class="custom-control-description">Service</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="ambience">
+                                                        <span class="custom-control-indicator"></span>
+                                                        <span class="custom-control-description">Ambience</span>
+                                                    </label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="custom-control custom-checkbox">
+                                                        <input type="checkbox" class="custom-control-input" id="food">
+                                                        <span class="custom-control-indicator"></span>
+                                                        <span class="custom-control-description">Food</span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="btn-group">
+                                            <a href="#productModal" data-toggle="modal" class="btn btn-outline-primary btn-lg" onclick="find_restaurants()"><span>Find Restaurants</span></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Section - Menu -->
+        <section class="pb-0 protrude">
+            <h1 class="text-center mb-6"> Enjoy your food!</h1>
+            <div class="menu-sample-carousel carousel inner-controls" data-slick='{
+                "dots": true,
+                "slidesToShow": 3,
+                "slidesToScroll": 1,
+                "infinite": true,
+                "responsive": [
+                    {
+                        "breakpoint": 991,
+                        "settings": {
+                            "slidesToShow": 2,
+                            "slidesToScroll": 1
+                        }
+                    },
+                    {
+                        "breakpoint": 690,
+                        "settings": {
+                            "slidesToShow": 1,
+                            "slidesToScroll": 1
+                        }
+                    }
+                ]
+            }'>
+                <!-- Menu Sample -->
+                <div class="menu-sample">
+                    <a href="##Burgers">
+                        <img src="assets/img/photos/menu-sample-burgers.jpg" alt="" class="image">
+                        <h3 class="title">Burgers</h3>
+                    </a>
+                </div>
+                <!-- Menu Sample -->
+                <div class="menu-sample">
+                    <a href="##Pizza">
+                        <img src="assets/img/photos/menu-sample-pizza.jpg" alt="" class="image">
+                        <h3 class="title">Pizza</h3>
+                    </a>
+                </div>
+                <!-- Menu Sample -->
+                <div class="menu-sample">
+                    <a href="##Sushi">
+                        <img src="assets/img/photos/menu-sample-sushi.jpg" alt="" class="image">
+                        <h3 class="title">Sushi</h3>
+                    </a>
+                </div>
+                <!-- Menu Sample -->
+                <div class="menu-sample">
+                    <a href="##Pasta">
+                        <img src="assets/img/photos/menu-sample-pasta.jpg" alt="" class="image">
+                        <h3 class="title">Pasta</h3>
+                    </a>
+                </div>
+                <!-- Menu Sample -->
+                <div class="menu-sample">
+                    <a href="##Desserts">
+                        <img src="assets/img/photos/menu-sample-dessert.jpg" alt="" class="image">
+                        <h3 class="title">Desserts</h3>
+                    </a>
+                </div>
+                <!-- Menu Sample -->
+                <div class="menu-sample">
+                    <a href="##Drinks">
+                        <img src="assets/img/photos/menu-sample-drinks.jpg" alt="" class="image">
+                        <h3 class="title">Drinks</h3>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Section -->
+        <section class="section section-lg dark bg-dark">
+
+            <!-- BG Image -->
+            <div class="bg-image bg-parallax"><img src="assets/img/photos/bg-croissant.jpg" alt=""></div>
+        
+            <div class="container text-center">
+                <div class="col-lg-8 push-lg-2">
+                    <h2 class="mb-3">Personalized Recommendation</h2>
+                    <h5 class="text-muted">Choose a restaurant right now!</h5>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer" class="bg-dark dark">
+            
+            <div class="container">
+                <!-- Footer 1st Row -->
+                <div class="footer-first-row row">
+                    <div class="col-lg-1 text-center">
+                        <!-- <a href="index.html"><img src="assets/img/logo-light.svg" alt="" width="88" class="mt-5 mb-5"></a> -->
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-muted">Contact Us!</h5>
+                        <ul class="list-posts">
+                            <li>
+                                <a href="#" class="title">Zixi Huang</a>
+                                <span class="date">zh2313@columbia.edu</span>
+                            </li>
+                            <li>
+                                <a href="#" class="title">Zekun Gong</a>
+                                <span class="date">zg2273@columbia.edu</span>
+                            </li>
+                            <li>
+                                <a href="#" class="title">Shilin Hu</a>
+                                <span class="date">sh3659@columbia.edu</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 col-md-6">
+                        <h5 class="text-muted">Subscribe Us!</h5>
+                        <!-- MailChimp Form -->
+                        <form action="/suelo.us12.list-manage.com/subscribe/post-json?u=ed47dbfe167d906f2bc46a01b&amp;id=24ac8a22ad" id="sign-up-form" class="sign-up-form validate-form mb-3" method="POST">
+                            <div class="input-group">
+                                <input name="EMAIL" id="mce-EMAIL" type="email" class="form-control" placeholder="Tap your e-mail..." required>
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary btn-submit" type="submit">
+                                        <span class="description">Subscribe</span>
+                                        <span class="success">
+                                            <svg x="0px" y="0px" viewBox="0 0 32 32"><path stroke-dasharray="19.79 19.79" stroke-dashoffset="19.79" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M9,17l3.9,3.9c0.1,0.1,0.2,0.1,0.3,0L23,11"></svg>
+                                        </span>
+                                        <span class="error">Try again...</span>
+                                    </button>
+                                </span>
+                            </div>
+                        </form>
+                        <h5 class="text-muted mb-3">Social Media</h5>
+                        <a href="#" class="icon icon-social icon-circle icon-sm icon-facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="icon icon-social icon-circle icon-sm icon-google"><i class="fa fa-google"></i></a>
+                        <a href="#" class="icon icon-social icon-circle icon-sm icon-twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="icon icon-social icon-circle icon-sm icon-youtube"><i class="fa fa-youtube"></i></a>
+                        <a href="#" class="icon icon-social icon-circle icon-sm icon-instagram"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+                <!-- Footer 2nd Row -->
+                <div class="footer-second-row">
+                    <span class="text-muted">Columbia University Big Data Analytics</span>
+                </div>
+            </div>
+
+            <!-- Back To Top -->
+            <a href="#" id="back-to-top"><i class="ti ti-angle-up"></i></a>
+
+        </footer>
+        <!-- Footer / End -->
+
+    </div>
+    <!-- Content / End -->
+
+    <!-- Body Overlay -->
+    <div id="body-overlay"></div>
+
+</div>
+
+<!-- Modal / Product -->
+<div class="modal fade" id="productModal" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header modal-header-lg dark bg-dark">
+                <div class="bg-image"><img src="assets/img/photos/modal-add.jpg" alt=""></div>
+                <h4 class="modal-title">Top 3 Restaurants</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="ti-close"></i></button>
+            </div>
+            <div class="modal-product-details">
+                <div class="row align-items-center">
+                    <div class="col-9">
+                        <h5 class="mb-0" id="top1">KFC</h5>
+                        <div class="row">
+                        	<div class="col-7 text-muted" id="top1_price">Price:</div>
+                        	<div class="col-7 text-muted" id="top1_service">Service:</div>
+                        	<div class="col-7 text-muted" id="top1_ambience">Ambience:</div>
+                        	<div class="col-7 text-muted" id="top1_food">Food:</div>
+                        	<div class="col-7 text-muted" id="top1_miscellaneous">Miscellaneous:</div>
+                        </div>
+                    </div>
+                    <div class="col-3 text-lg text-right" id="top1_star">5 Star</div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-9">
+                        <h5 class="mb-0" id="top2">Up Thai</h5>
+                        <div class="row">
+                        	<div class="col-7 text-muted" id="top2_price">Price:</div>
+                        	<div class="col-7 text-muted" id="top2_service">Service:</div>
+                        	<div class="col-7 text-muted" id="top2_ambience">Ambience:</div>
+                        	<div class="col-7 text-muted" id="top2_food">Food:</div>
+                        	<div class="col-7 text-muted" id="top2_miscellaneous">Miscellaneous:</div>
+                        </div>
+                    </div>
+                    <div class="col-3 text-lg text-right" id="top2_star">5 Star</div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-9">
+                        <h5 class="mb-0" id="top3">Coco Wings</h5>
+                        <div class="row">
+                        	<div class="col-7 text-muted" id="top3_price">Price:</div>
+                        	<div class="col-7 text-muted" id="top3_service">Service:</div>
+                        	<div class="col-7 text-muted" id="top3_ambience">Ambience:</div>
+                        	<div class="col-7 text-muted" id="top3_food">Food:</div>
+                        	<div class="col-7 text-muted" id="top3_miscellaneous">Miscellaneous:</div>
+                        </div>
+                    </div>
+                    <div class="col-3 text-lg text-right" id="top3_star">4 Star</div>
+                </div>
+            </div>
+            <div class="modal-body panel-details-container">
+            </div>
+            <button type="button" class="modal-btn btn btn-secondary btn-block btn-lg" data-dismiss="modal"><span>Get it!</span></button>
+        </div>
+    </div>
+</div>
+
+<!-- JS Plugins -->
+<script src="assets/plugins/jquery/dist/jquery.min.js"></script>
+<script src="assets/plugins/tether/dist/js/tether.min.js"></script>
+<script src="assets/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="assets/plugins/slick-carousel/slick/slick.min.js"></script>
+<script src="assets/plugins/jquery.appear/jquery.appear.js"></script>
+<script src="assets/plugins/jquery.scrollto/jquery.scrollTo.min.js"></script>
+<script src="assets/plugins/jquery.localscroll/jquery.localScroll.min.js"></script>
+<script src="assets/plugins/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="assets/plugins/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.min.js"></script>
+<script src="assets/plugins/twitter-fetcher/js/twitterFetcher_min.js"></script>
+<script src="assets/plugins/skrollr/dist/skrollr.min.js"></script>
+<script src="assets/plugins/animsition/dist/js/animsition.min.js"></script>
+
+<!-- JS Core -->
+<script src="assets/js/core.js"></script>
+
+<!-- JS Stylewsitcher -->
+<script src="styleswitcher/styleswitcher.js"></script>
+
+</body>
+
+</html>
+
